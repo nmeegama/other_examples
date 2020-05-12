@@ -1,0 +1,13 @@
+other_examples.display:
+  path: '/other-examples/display'
+  defaults:
+    _controller: '\Drupal\other_examples\Controller\OtherExamplesController::display'
+  requirements:
+    _permission: 'access other examples'
+
+other_examples.ajax_call:
+  path: '/other-examples/ajax-call'
+  defaults:
+    _controller: '\Drupal\other_examples\Controller\OtherExamplesController::ajaxCall'
+  requirements:
+    _permission: 'access other examples'

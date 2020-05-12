@@ -1,0 +1,11 @@
+name: Other examples
+description: Drupal examples that are hard to find
+type: module
+#core: 8.x not used after Drupal 8.7.7
+core_version_requirement: ^8 || ^9
+
+#dependencies:
+#  - drupal:node
+#  - webform:webform
+#  - devel:kint
+#  - drupal:system (>=8.2.0)
